@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.Home{
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("/images/IMG_0822.jpg");
+}
+
+.Navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  transform: translateZ(30px);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.nav-links{
+  width: 400px;
+  margin-top: 13px;
+}
+
+.nav-list{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.a-list{
+  text-decoration: none;
+  color: black;
+}
+
+/* Main Home */
+
+.Main{
+  position: relative;
+  width: 350px;
+  background-color: white;
+  margin: auto;
+  margin-top: 400px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.abt-btn{
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* About Me Page */
+
+.AboutMe{
+  background-color: white;
+  margin: 0 auto;
+  width: 900px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 100px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  transform: translateZ(30px);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+}
+
+/* Contact Page */
+  .Contact{
+    background-color: white;
+    margin: 0 auto;
+    width: 900px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    transform: translateZ(30px);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+  }
+
+.ContactForm input, textarea{
+  border: 0;
+  margin: 10px;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+}
+.ContactForm button{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100px;
+}
+
+/* Review Page Form*/
+
+.Review-Form{
+  background-color: white;
+    margin: 0 auto;
+    width: 900px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    transform: translateZ(30px);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+.Review-Form input, textarea{
+  border: 0;
+  margin: 10px;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+}
+
+.ReviewBtn{
+  padding: 8px;
+  background-color: black;
+  color: white;
+  font-size: 13px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100px;
+}
+
+/* Review Page Review Slider */
+
+.Reviews-Slider{
+  background-color: white;
+    margin: 0 auto;
+    width: 850px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    transform: translateZ(30px);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    overflow-y: scroll;
+}
+.Reviews-Slider p{
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  width: 650px; /* whatever width you want */
+}
+
+/* Projects */
+
+.Projects{
+  background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    transform: translateZ(30px);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+.project-vidjas{
+  display: flex;
+  justify-content: space-around;
+}

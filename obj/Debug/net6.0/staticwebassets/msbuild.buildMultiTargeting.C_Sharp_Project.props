@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\C_Sharp_Project.props" />
+</Project>

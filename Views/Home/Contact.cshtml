@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <div>
+        @await Html.PartialAsync("_Navbar")
+    </div>
+    <div class="Contact">
+        <h3>Contact Me</h3>
+        <form action="https://formsubmit.co/149981850b5891e645af5ca7b4d1f4b1" method="POST" class="ContactForm">
+
+            <div>
+                <input type="text" name="Name" placeholder="Full Name" required class="Name">
+            </div>
+
+            <div>
+                <input type="email" name="Email" placeholder="Email" required class="Email">
+            </div>
+
+            <div>
+                <textarea name="Message" cols="50" rows="5" placeholder="Message" required class="MessageBox"></textarea>
+            </div>
+
+            <p>(You will have to go through a verification)</p>
+            <div>
+                <button class="Contact-Btn">Send</button>
+            </div>
+
+        </form>
+    </div>
+</div>

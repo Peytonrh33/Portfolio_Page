@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <div>
+        @await Html.PartialAsync("_Navbar")
+    </div>
+    <div class="Projects">
+        <h1>Projects</h1>
+        <div class="project-vidjas">
+            <div>
+                <h3>Just Talking</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/C-A8IaAD-cg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div>
+                <h3>Daily Dash</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/FMSkb6rShXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+    </div>
+</div>
